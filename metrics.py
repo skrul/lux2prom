@@ -24,4 +24,24 @@ METRICS = [
         "type": "gauge",
         "unit": "W",
     },
+    {
+        "id": "Ptouser",
+        "type": "gauge",
+        "unit": "W",
+    },
+    {
+        "id": "Ptogrid",
+        "type": "gauge",
+        "unit": "W",
+    },
+    {
+        "id": "Pcharge",
+        "type": "gauge",
+        "unit": "W",
+    },
+    {
+        "id": "Pdischarge",
+        "type": "gauge",
+        "unit": "W",
+    },
 ]
