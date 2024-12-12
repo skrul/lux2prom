@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  lux2prom:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MQTT_HOST=<host>
+      - MQTT_PORT=1883
+      - MQTT_USERNAME=<user>
+      - MQTT_PASSWORD=<pass>
+      - DONGLE=dongle-XX:XX:XX:XX:XX:XX
+      - PROMETHEUS_PORT=8000
