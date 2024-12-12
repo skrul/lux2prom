@@ -44,4 +44,9 @@ METRICS = [
         "type": "gauge",
         "unit": "W",
     },
+    {
+        "id": "soc",
+        "type": "gauge",
+        "unit": None,
+    },
 ]
