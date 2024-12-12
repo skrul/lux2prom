@@ -1,5 +1,3 @@
-version: '2'
-
 services:
   lux2prom:
     build: .
